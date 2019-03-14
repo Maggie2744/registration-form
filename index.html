@@ -8,10 +8,12 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 
   <section>
+
     <div>
       <h1>Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
@@ -26,8 +28,6 @@
         <input id="age" type="number" required>
         <label for="email">Email</label>
         <input id="email" type="email" required>
-      </fieldset>
-      <div>
         <label for="fitness">Physical fitness</label>
         <select id="fitness">
           <option>Super-human</option>
@@ -35,15 +35,13 @@
           <option>Not terribly strong</option>
           <option>A little couch-potato-y</option>
         </select>
-      </div>
-      <div>
         <label for="address">Address</label>
-        <input id="address" required>
-      <div>
+        <textarea id="address"></textarea>
+      </fieldset>
       <fieldset>
         <legend>Mission statement</legend>
         <label for="mission-statement">Why do you want to go to Mars?</label>
-        <input id="mission-statement" required>
+        <textarea id="mission-statement"></textarea>
         <button type="submit">Register for the trip!</button>
       </fieldset>
     </form>
