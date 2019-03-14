@@ -22,27 +22,41 @@
     <form method="post">
       <fieldset>
         <legend>Personal details</legend>
-        <label for="name">Name</label>
-        <input id="name" required>
-        <label for="age">Age</label>
-        <input id="age" type="number" required>
-        <label for="email">Email</label>
-        <input id="email" type="email" required>
-        <label for="fitness">Physical fitness</label>
-        <select id="fitness">
-          <option>Super-human</option>
-          <option>Fit as a fiddle</option>
-          <option>Not terribly strong</option>
-          <option>A little couch-potato-y</option>
-        </select>
-        <label for="address">Address</label>
-        <textarea id="address"></textarea>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" required>
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input id="age" type="number" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" required>
+        </div>
+        <div>
+          <label for="fitness">Physical fitness</label>
+          <select id="fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <textarea id="address"></textarea>
+        </div>
       </fieldset>
       <fieldset>
         <legend>Mission statement</legend>
-        <label for="mission-statement">Why do you want to go to Mars?</label>
-        <textarea id="mission-statement"></textarea>
-        <button type="submit">Register for the trip!</button>
+        <div>
+          <label for="mission-statement">Why do you want to go to Mars?</label>
+          <textarea id="mission-statement"></textarea>
+        </div>
+        <div>
+          <button type="submit">Register for the trip!</button>
+        </div>
       </fieldset>
     </form>
 
