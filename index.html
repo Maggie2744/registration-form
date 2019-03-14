@@ -27,35 +27,25 @@
         <label for="email">Email</label>
         <input id="email" type="email" required>
       </fieldset>
-      <fieldset>
-        <legend>Physical fitness</legend>
-        <div>
-          <input type="radio" id="" name="Super-human">
-          <label for="Super-human">Super-human</label>
-        </div>
-        <div>
-          <input type="radio" id="" name="Fit as a fiddle">
-          <label for="Fit as a fiddle">Fit as a fiddle</label>
-        </div>
-        <div>
-          <input type="radio" id="" name="Not terribly strong">
-          <label for="Not terribly strong">Not terribly strong</label>
-        </div>
-        <div>
-          <input type="radio" id="" name="A little couch-potato-y">
-          <label for="A little couch-potato-y">A little couch-potato-y</label>
-        </div>
-      </fieldset>
       <div>
-        <h2>Mission statement</h2>
+        <label for="fitness">Physical fitness</label>
+        <select id="fitness">
+          <option>Super-human</option>
+          <option>Fit as a fiddle</option>
+          <option>Not terribly strong</option>
+          <option>A little couch-potato-y</option>
+        </select>
       </div>
       <div>
+        <label for="address">Address</label>
+        <input id="address" required>
+      <div>
+      <fieldset>
+        <legend>Mission statement</legend>
         <label for="mission-statement">Why do you want to go to Mars?</label>
         <input id="mission-statement" required>
-      </div>
-      <div>
         <button type="submit">Register for the trip!</button>
-      </div>
+      </fieldset>
     </form>
 
   </section>
