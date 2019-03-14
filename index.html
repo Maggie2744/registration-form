@@ -12,29 +12,29 @@
 </head>
 <body>
 
-  <section>
+  <section class="grid">
 
-    <div>
+    <div class="unit">
       <h1>Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
 
-    <form method="post">
-      <fieldset>
-        <legend>Personal details</legend>
-        <div>
+    <form class="unit" method="post">
+      <fieldset class="grid">
+        <legend class="unit">Personal details</legend>
+        <div class="unit">
           <label for="name">Name</label>
           <input id="name" required>
         </div>
-        <div>
+        <div class="unit">
           <label for="age">Age</label>
           <input id="age" type="number" required>
         </div>
-        <div>
+        <div class="unit">
           <label for="email">Email</label>
           <input id="email" type="email" required>
         </div>
-        <div>
+        <div class="unit">
           <label for="fitness">Physical fitness</label>
           <select id="fitness">
             <option>Super-human</option>
@@ -43,18 +43,18 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div>
+        <div class="unit">
           <label for="address">Address</label>
           <textarea id="address"></textarea>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>Mission statement</legend>
-        <div>
+      <fieldset class="grid">
+        <legend class="unit">Mission statement</legend>
+        <div class="unit">
           <label for="mission-statement">Why do you want to go to Mars?</label>
           <textarea id="mission-statement"></textarea>
         </div>
-        <div>
+        <div class="unit">
           <button type="submit">Register for the trip!</button>
         </div>
       </fieldset>
